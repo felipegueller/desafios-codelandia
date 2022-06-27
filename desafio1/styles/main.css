@@ -94,6 +94,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   background-color: var(--input-bg);
+  color: var(--white);
   border: none;
   border-radius: var(--bd-radius);
   outline: none;
@@ -115,7 +116,6 @@ body {
 }
 
 /* Main content */
-
 #main-content {
  padding: 100px 20px;
  display: flex;
@@ -162,7 +162,43 @@ body {
 
 @media (max-width: 600px) {
   .main-header,
-  .main-content {
+  #main-content {
     padding: 50px 20px;
+  }
+
+  .nav-menu {
+    margin-bottom: 40px;
+  }
+
+  .nav-menu li a {
+    font-size: 18px;
+  }
+
+  .input-wrapper .input {
+    padding-left: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .input-wrapper .icon-box{
+    width: 40px;
+    height: 40px;
+  }
+
+  .input-wrapper .icon-box > img {
+    width: 16px;
+  }
+
+  .post .date,
+  .post .content {
+    font-size: 14px;
+  }
+
+  .post .icon {
+    width: 19px;
+  }
+
+  .post .title {
+    font-size: 18px;
   }
 }
