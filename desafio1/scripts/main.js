@@ -7,7 +7,8 @@ const post = ScrollReveal({
 const content = ScrollReveal({
   origin: 'left',
   distance: '100px',
-  duration: 1000
+  duration: 1000,
+  reset: true
 })
 
 ScrollReveal().reveal('.post', post)
