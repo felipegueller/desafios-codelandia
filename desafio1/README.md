@@ -4,8 +4,8 @@
 ## navigation 
 ================
   - [About](#about)
-  - [Technologies] (#tech)
-  - [Links] (links)
+  - [Technologies](#tech)
+  - [Links](links)
 
 ## About
 
