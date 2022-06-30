@@ -1,7 +1,7 @@
 <h1 align="center"> Challenge 01 - Codelândia Blog</h1>
 
 <h1 align="center">
-  !(Codelândia blog)[https://media.giphy.com/media/HsPB162Rah32p8KRld/giphy.gif]
+  ![Codelândia blog](https://media.giphy.com/media/HsPB162Rah32p8KRld/giphy.gif)
 </h1>
 
 
