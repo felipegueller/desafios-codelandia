@@ -12,19 +12,20 @@ The project is a challenge proposed by discord community <a href="https://discor
 
   - [About](#about)
   - [Figma](#figma)
-  - [Technologies](#technologies)
+  - [Technologies](#tech)
   - [Library](#library)
   - [Demo](#demo)
+  - [Author](#author)
 
-## 📃 About
+<h2 id="about">📃 About</h2>
 
 The challenge consists in create a blog from the layout available on Figma. It was separated in three parts, the first one was do the structure HTML and CSS3, the socond was make the layout responsive and last adding an animation.
 
-## 🖼️ Figma
+<h2 id="figma">🖼️ Figma</h2>
 
 You can access the project's layout [clicking here!](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=0%3A1)
 
-## 🚀 technologies
+<h2 id="tech">🚀 Technologies</h2>
 
 Bellow is all technologies used in this project:
 
@@ -37,15 +38,15 @@ Bellow is all technologies used in this project:
 
 </div>
 
-## 📚 library
+<h2 id="library">📚 Library</h2>
 
 The [ScrollReveal](https://github.com/jlmakes/scrollreveal) library was used to create the simple fade animation for the posts.
 
-## 🕶️ Demo 
+<h2 id="demo">🕶️ Demo</h2>
 
 You can see the demo [clicking here!](https://felipegueller.github.io/desafios-codelandia/desafio1/)
 
-## 👨‍🔬 Autor<br>
+<h2 id="author">👨‍🔬 Author</h2>
 
 <table>
   <tr>
@@ -60,4 +61,4 @@ You can see the demo [clicking here!](https://felipegueller.github.io/desafios-c
   </tr>
 </table>
 
-> Made with 💖 by FELIPE GUELLER 👋 [see my linkedin](https://www.linkedin.com/in/felipegueller/)
+> Made with 💖 by FELIPE GUELLER 👋 [See my Linkedin](https://www.linkedin.com/in/felipegueller/)
