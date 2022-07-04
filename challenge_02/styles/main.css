@@ -1,0 +1,184 @@
+/* Variables */
+:root {
+  --bgSite: #f6f6f6;
+  --bgCard: #ebe9ea;
+  
+  --white: #fff;
+  --black: #181818;
+
+  --text: #474747;
+}
+
+/* Importing the fonts */
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fontes/Montserrat-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@Font-face {
+  font-family: 'Montserrat';
+  src: url('../fontes/Montserrat-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fontes/Montserrat-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* general styles */
+body {
+  font: 500 1.6rem 'Montserrat'; 
+  background-color: var(--bgSite);
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+/* begin */
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.sale,
+.footer {
+  padding: 15px 20px;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.title {
+  padding: 20px;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.sale {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.banner {
+  background: url('../img/wallpaper.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .content {
+  padding: 120px 100px; 
+  background-color: #0009;
+  color: var(--white);
+}
+
+.banner .content h2 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.banner .content p {
+  width: 50%;
+  line-height: 3.5rem;
+  font-weight: 600;
+}
+
+/* featured products */
+.featured-products {
+  padding: 60px 100px 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-products h2 {
+  line-height: 5.5rem;
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.featured-products .products {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px 10px;
+}
+
+.featured-products .products .tennis-container {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  background-color: var(--bgCard);
+  flex-basis: 300px;
+  flex-shrink: 1;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (max-width: 810px) {
+  .banner .content p {
+    width: 70%;
+    text-align: justify;
+  }
+
+  .tennis-container {
+    flex: 1;
+  }
+}
+
+@media (max-width: 810px) {
+  .banner .content p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  .sale {
+    font-size: 1.2rem;
+  }
+
+  .banner .content {
+    padding: 120px 20px;
+  }
+
+  .featured-products {
+    padding: 50px 20px;
+  }
+
+  .featured-products p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .featured-products .products {
+    gap: 30px;
+  }
+}
