@@ -44,7 +44,7 @@ The [ScrollReveal](https://github.com/jlmakes/scrollreveal) library was used to 
 
 <h2 id="demo">🕶️ Demo</h2>
 
-You can see the demo [clicking here!](https://felipegueller.github.io/desafios-codelandia/desafio1/)
+You can see the demo [clicking here!](https://felipegueller.github.io/desafios-codelandia/challenge_01/)
 
 <h2 id="author">👨‍🔬 Author</h2>
 
