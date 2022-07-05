@@ -61,4 +61,4 @@ You can see the demo [clicking here!](https://felipegueller.github.io/desafios-c
   </tr>
 </table>
 
-> Made with 💖 by FELIPE GUELLER 👋 [See my Linkedin](https://www.linkedin.com/in/felipegueller/)
+> Made with ❤️ by FELIPE GUELLER 👋 [See my Linkedin](https://www.linkedin.com/in/felipegueller/)
