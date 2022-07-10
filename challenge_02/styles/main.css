@@ -25,7 +25,10 @@
 
 .banner {
   padding: 120px 100px; 
+  min-height: 500px;
   color: var(--white);
+  display: grid;
+  align-content: center;
   position: relative;
 }
 
@@ -36,7 +39,7 @@
   background: url('../img/wallpaper.jpeg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: left center;
   filter: brightness(50%);
   position: absolute;
   top: 0;
