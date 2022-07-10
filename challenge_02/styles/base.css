@@ -1,10 +1,11 @@
 /* Variables  */
  :root {
-  --bgSite: #FAD9A1;
-  --bgCard: #ebe9ea;
+   --bgSite: #FFA500;
+   --bgCard: #ebe9ea;
   
   --white: #fff;
   --black: #181818;
+  --blue: #1F4690;
 
   --text: #474747;
 }

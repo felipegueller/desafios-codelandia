@@ -7,7 +7,7 @@
 .sale,
 .footer {
   padding: 15px 20px;
-  background-color: var(--black);
+  background-color: var(--blue);
   color: var(--white);
   font-weight: 500;
 }
