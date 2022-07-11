@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  background-color: #ff3344;
+  color: #fff;
+  padding: 20px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: absolute;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: backgorund-color 250ms ease-out;
+}
+
+a:hover {
+  background-color: #fc091d;
+  transition: backgorund-color 250ms ease-in;
+}
