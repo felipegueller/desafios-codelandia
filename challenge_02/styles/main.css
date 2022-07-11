@@ -116,6 +116,7 @@
   padding-left: 30px;
 }
 
+.featured-products > p,
 .footer p {
   text-align: center;
 }
@@ -193,7 +194,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   h1 {
     font-size: 2.4rem;
   }
@@ -219,11 +220,11 @@
   }
 
   .featured-products p {
-    text-align: center;
     width: 100%;
   }
 
   .featured-products .products {
     gap: 30px;
+    grid-template-columns: minmax(320px, 400px);
   }
 }
