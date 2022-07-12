@@ -25,7 +25,7 @@
 
 .banner {
   padding: 120px 100px; 
-  min-height: 500px;
+  min-height: calc(100vh - 118px);
   color: var(--white);
   display: grid;
   align-content: center;
@@ -214,6 +214,7 @@
 
   .banner {
     padding: 120px 20px;
+    min-height: calc(100vh - 114px);
   }
 
   .featured-products {
