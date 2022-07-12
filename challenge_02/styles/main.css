@@ -52,9 +52,10 @@
   font-weight: 700;
 }
 
-.banner p {
+.banner .main-sentence {
   width: 50%;
   line-height: 3.5rem;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -178,7 +179,7 @@
 /* Media width */
 
 @media (max-width: 810px) {
-  .banner p {
+  .banner .main-sentence {
     width: 70%;
     text-align: justify;
   }
@@ -189,7 +190,7 @@
 }
 
 @media (max-width: 810px) {
-  .banner p {
+  .banner .main-sentence {
     width: 90%;
   }
 }
